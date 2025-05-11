@@ -1,0 +1,132 @@
+* {
+   /*To remove spaces for webpage element*/
+    margin:0; 
+    padding:0;
+    box-sizing:border-box;
+}
+
+:root{
+    --pr-btn-pg:#e0f61f;
+    --pr-btn--hover-pg: #ffffff;
+}
+
+body {
+    font-size: 16px;
+}
+
+p{
+    font-family: "Chivo", sans-serif;
+ 
+ }
+
+ .pra{
+    font-family: "Chivo", sans-serif;
+    color: #ffffff;
+ }
+
+.container{
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto 0 auto;
+}
+
+.header{
+    padding: 0 2rem 0 2rem;
+    position: absolute;
+    left: 0;
+    top: 1rem;
+    right: 0;
+    z-index: 1;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.bars-icon {
+    a{
+        color: #e0f61f;
+    }
+    .Icon {
+        width: 2rem;
+        height: auto;
+        fill: #e0f61f;
+    }
+
+}
+
+.search-bag-shopping {
+    display: flex;
+    gap: 1.5rem;
+    a{
+        color: #e0f61f;
+    }
+    .Icon {
+        width: 2rem;
+        height: auto;
+        fill: #e0f61f;
+    }
+
+}
+
+.section-intro {
+    height: 100vh;
+    width: 100%;
+}
+
+.btn{
+    border-radius: 100px;
+    display: inline-block;
+    padding: 1rem ;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    &.btn-intro{
+        background-color: var(--pr-btn-pg);
+        color: black;
+        &:hover{
+            background-color: var(--pr-btn--hover-pg) ;
+        }
+    }
+}
+
+.section-intro{
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.arrow-down{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    a{
+        color: #e0f61f;
+    }
+    .Icon {
+        width: 2rem;
+        height: auto;
+        fill: #e0f61f;
+    }
+   
+}
+
+.shopping-expriences{
+    text-align:center ;
+    min-height: 600px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.shopping-expriences h1{
+    font-size: 4rem;
+}
