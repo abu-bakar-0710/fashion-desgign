@@ -105,7 +105,8 @@ p{
         font-weight: bold;
         font-family: "Chivo", sans-serif;
         &:hover{
-            background-color: var(--pr-btn--hover-pg) ;
+            color: var(--pr-btn--hover-pg);
+            background-color: #000000 ;
         }
     }
 }
@@ -179,7 +180,7 @@ h1 {
     background-repeat: no-repeat;    
 
 
-   .title{
+   .our-shop{
   h2 {
     font-family: "Chivo", sans-serif;
     font-size: 10rem;
@@ -254,7 +255,7 @@ h1 {
     }
     .model-images-b{
         margin: -33rem 0 0 46rem;
-            h4{
+            h3{ 
          font-family: "Chivo", sans-serif;
          margin: 1rem 0 0 0;
          font-size: 2rem;
@@ -289,7 +290,7 @@ h1 {
     }
     .model-images-c{
         margin: -5rem 0 0 10rem;
-            h5{
+            h3{
          font-family: "Chivo", sans-serif;
          margin: 1rem 0 0 0;
          font-size: 2rem;
@@ -324,7 +325,7 @@ h1 {
     }
     .model-images-d{
         margin: -33rem 0 0 46rem;
-            h6{
+            h3{
          font-family: "Chivo", sans-serif;
          margin: 1rem 0 0 0;
          font-size: 2rem;
@@ -398,5 +399,44 @@ h1 {
     justify-content: center;
     color: var(--pr-btn--hover-pg);
     margin-top: 1rem;
-  }
+   }
+  .title{
+     color: transparent;
+    -webkit-text-stroke: 2px var(--pr-btn-pg);
+    margin-left: 1rem; 
+    & h4{
+    font-family: "Chivo", sans-serif;
+    font-size: 6rem;
+    font-weight: 900; 
+    margin: 5rem 0 0 5rem;  
+    }
+   }
+   .kristen-han{
+    font-family: "Chivo", sans-serif;
+    color: var(--pr-btn--hover-pg);
+    p{
+        font-size: smaller;
+    }
+    h5{
+        font-size: large;
+        font-weight: bolder;
+    }
+    .kristen-han-1{
+        margin: 5rem 0rem 0rem 5rem;
+    }
+    .kristen-han-2{
+        margin: -4.4rem 0rem 0rem 54rem;
+    }
+    .kristen-han-3{
+        margin: 5rem 0rem 0rem 5rem;
+    }
+    .kristen-han-4{
+        margin: -4.4rem 0rem 0rem 54rem;
+    }
+    }
+    .dot{
+        color: transparent;
+        margin-top: 7rem;
+    }
+
 }
